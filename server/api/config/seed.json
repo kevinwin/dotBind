@@ -11,16 +11,20 @@
     ],
     "Card": [
       {
-        "url": "http://google.com"
+        "url": "http://google.com",
+        "user_id": 1
       },
       {
-        "url": "http://facebook.com"
+        "url": "http://facebook.com",
+        "user_id": 2
       },
       {
-        "url": "http://airbnb.com"
+        "url": "http://airbnb.com",
+        "user_id": 1
       },
       {
-        "url": "http://amazon.com"
+        "url": "http://amazon.com",
+        "user_id": 1
       }
     ],
     "Snippet": [
@@ -71,6 +75,10 @@
       {
         "user_id": 2,
         "tag_id": 3
+      },
+      {
+        "user_id": 2,
+        "tag_id": 4
       }
     ],
     "CardTag": [
