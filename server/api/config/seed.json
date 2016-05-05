@@ -62,23 +62,33 @@
     "UserTag": [
       {
         "user_id": 1,
-        "tag_id": 1
+        "tag_id": 1,
+        "card_count": 2
       },
       {
         "user_id": 1,
-        "tag_id": 2
+        "tag_id": 2,
+        "card_count": 2
       },
       {
         "user_id": 1,
-        "tag_id": 4
+        "tag_id": 3,
+        "card_count": 1
+      },
+      {
+        "user_id": 1,
+        "tag_id": 4,
+        "card_count": 2
       },
       {
         "user_id": 2,
-        "tag_id": 3
+        "tag_id": 1,
+        "card_count": 1
       },
       {
         "user_id": 2,
-        "tag_id": 4
+        "tag_id": 4,
+        "card_count": 1
       }
     ],
     "CardTag": [
@@ -88,11 +98,15 @@
       },
       {
         "card_id": 1,
+        "tag_id": 4
+      },
+      {
+        "card_id": 1,
         "tag_id": 2
       },
       {
         "card_id": 2,
-        "tag_id": 3
+        "tag_id": 1
       },
       {
         "card_id": 2,
@@ -100,27 +114,19 @@
       },
       {
         "card_id": 3,
-        "tag_id": 1
-      },
-      {
-        "card_id": 3,
         "tag_id": 3
       },
       {
-        "card_id": 4,
+        "card_id": 3,
         "tag_id": 4
       },
       {
         "card_id": 4,
-        "tag_id": 3
+        "tag_id": 1
       },
       {
         "card_id": 4,
         "tag_id": 2
-      },
-      {
-        "card_id": 4,
-        "tag_id": 1
       }
     ]
 
