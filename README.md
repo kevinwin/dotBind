@@ -6,7 +6,7 @@ DotBind is a software engineer's notebook. Capture cool code snippets while brow
 
 Download the chrome extension.
 
-Check out the web app @ ![www.dotbind.io](http://www.dotbind.io)
+Check out the web app @ [www.dotbind.io](http://www.dotbind.io)
 
 ## Team Members (v. 1.0)
 [![Michelle He](https://dl.dropbox.com/s/u38k1c4csex03o2/michelle.png?dl=0)](https://github.com/michelleheh)
@@ -27,12 +27,50 @@ Check out the web app @ ![www.dotbind.io](http://www.dotbind.io)
 - [Elastic Search](https://www.elastic.co/)
 - [Ace Editor](https://ace.c9.io/#nav=about)
 - Github's [Octodex](https://octodex.github.com/)
-- [Travis CI](https://travis-ci.org/), [Mocha](https://mochajs.org/), and [Chai] for TDD
-- [Webpack] & [Babel] for using next-generation JavaScript today 
+- [Travis CI](https://travis-ci.org/), [Mocha](https://mochajs.org/), and [Chai](http://chaijs.com/) for TDD
+- [Webpack](https://webpack.github.io/) & [Babel](https://babeljs.io/) for using next-generation JavaScript, today 
 - [AirBnb's style guide](https://github.com/airbnb/javascript)
 
 
-## File structure
+## Folder & File structure
+```
+                                  +-------+
+                                  |dotBind|
+                                  +---+---+
+                                      |
+           +--------------------------+------------------------+
+           |                                                   |
+           v                                                   v
+        +--+---+                                            +--+---+
+        |client|                                            |server|
+        +--+---+                                            +--+---+
+           |                                                   |
+      +----+-----+                                        +----+-----+
+      |          |                                        |          |
+      v          v                                        v          v
+    +-+-+     +--+---+                                 +--+---+    +-+-+
+    |app|     |chrome|                                 |static|    |api|
+    +-+-+     +------+                                 +--+---+    +-+-+
+      |                                                   |          |
+      v                                                   v          v
++-----+-----+                                      +------+-----+  +-+---+
+|Redux/React|                                      |Node/Express|  |Nodal|
++-----------+                                      +------------+  +-----+
+
+```
+
+The repo is divided into 2 main folders, `client` and `server`.
+Each main folder is divided into respective subfolders.
+
+`app` is the container for the Redux/React web app
+
+`chrome` holds the html/cs/js and configuration files needed to build the chrome extension
+
+`static` represents a static file server which serves up files inside `app`
+
+`api` is the container for the RESTful API server
+
+
 
 ## Setting up your development environment
 
