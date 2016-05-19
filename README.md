@@ -74,9 +74,19 @@ Each main folder is divided into respective subfolders.
 
 ## Setting up your development environment
 
+1. Install all dependencies inside app, static and api.
+2. Install Elastic Search
+3. Set a webpack watch and build. Run `npm run build` inside the `app` folder
+4. Install the chrome folder inside extensions
+5. Run the nodal api server and the static server
+
 ## Schema Design
+
+## React/Redux
 
 ## Elastic Search
 
-## Nodal
+## Static file Server
+
+## Nodal API server
 
