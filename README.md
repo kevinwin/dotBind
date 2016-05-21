@@ -85,9 +85,9 @@ $ npm install
 ```
 $ npm install nodal -g
 ```
-- Install PostgreSQL
+- Download & install [PostgreSQL](http://postgresapp.com/)
 
-- Install ElasticSearch
+- Download & install ElasticSearch
 
 ```
 $ brew update
@@ -115,12 +115,12 @@ http.cors.allow-headers: "X-Requested-With,X-Auth-Token,Content-Type, Content-Le
 $ elasticsearch
 ```
 
-- Run Postgres App
+- Run Postgres App. Postgres will by default listen on port 5432.
 
 - Run static-file server from server/static directory
 
 ```
-$ npm start
+$ npm run start
 ```
 - Run API server from server/api diretory
 
